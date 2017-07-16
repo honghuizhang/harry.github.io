@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jekyll Resume Template</title>
+
+  <!-- Google font typography settings - defined in _config.yml -->
+  
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700' rel='stylesheet' type='text/css'>
+  
+
+  <meta name="description" content="A resume template for Jekyll and GitHub Pages sites.">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="icon" type="image/x-icon" href="/favicon.png" />
+</head>
+
+
+  <body class="theme-default">
+
+    <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+
+      <header class="page-header">
+
+        <!-- You can turn off the avatar in _config.yml by setting to false -->
+        
+
+        <!-- Your name is defined in the _config.yml file -->
+        <h1 class="header-name" itemprop="name">Honghui Zhang</h1>
+
+        <!-- Contact buttons don't work in print, configure in the _config.yml file, remove "print-only" to display always. -->
+        <div class="header-contact-info print-only" itemprop="contact-info">
+          <p></p>
+        </div>
+
+        <div class="title-bar no-print">
+
+          <!-- Your title is also defined in the _config.yml file -->
+          <h2 class="header-title" itemprop="jobTitle"></h2>
+
+          <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
+          <!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
+
+
+        </div>
+
+        <div class="executive-summary no-print" itemprop="description">
+          <p> Researcher of Computer Vision and Machine Learning.</p>
+        </div>
+
+        
+        <a href="mailto:zhhsmail@gmail.com" class="contact-button no-print" itemprop="email">Contact me</a>
+        
+
+      </header>
+
+      
+      <!-- begin Experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Experience</h2>
+        </header>
+
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">DJI</h3>
+          <h4 class="resume-item-details" itemprop="description">Senior Algorithm Engineer, DJI &bull; Jun, 2014 &mdash; Jan, 2016</h4>
+          <p class="resume-item-copy">Leader of a computer vision research team, working on visual/IMU-aided SLAM, stereo vision and deep learning for UAV.</p>
+        </div><!-- end of resume-item -->
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name"></h3>
+          <h4 class="resume-item-details" itemprop="description">Department Manager, DJI &bull; Jan, 2016 &mdash; Present</h4>
+          <p class="resume-item-copy">Manager of the vision perception department.</p>
+        </div><!-- end of resume-item -->
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Lenovo</h3>
+          <h4 class="resume-item-details" itemprop="description">Staff Researcher &bull; Jun, 2013 &mdash; Jun, 2014</h4>
+          <p class="resume-item-copy">Computer vision research and prototype system development for PC and mobile platform, focusing on 3D reconstruction and modeling from multi-view images and stereo vision related applications.</p>
+        </div><!-- end of resume-item -->
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">The Hong Kong University of Science and Technology</h3>
+          <h4 class="resume-item-details" itemprop="description">Postdoc Research Fellow &bull; Sep, 2012  &mdash; Jun, 2013</h4>
+          <p class="resume-item-copy">Working on visual tracking for intelligent video surveillance, scene understanding of large scale street view with images and lidar point cloud.</p>
+        </div><!-- end of resume-item -->
+        
+
+      </section>
+      <!-- end Experience -->
+      
+
+
+      
+      <!-- begin Education -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Education</h2>
+        </header>
+
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">The Hong Kong University of Science and Technology</h3>
+          <h4 class="resume-item-details group" itemprop="description"> &bull; 2008 &mdash; 2012</h4>
+          <h5 class="resume-item-details award-title" itemprop="description">Computer Science and Engineering, PhD</h5>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">University of Science and Technology of China</h3>
+          <h4 class="resume-item-details group" itemprop="description"> &bull; 2005 &mdash; 2008</h4>
+          <h5 class="resume-item-details award-title" itemprop="description">Signal and Information Processing, Master</h5>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">Tongji University</h3>
+          <h4 class="resume-item-details group" itemprop="description"> &bull; 2001 &mdash; 2005</h4>
+          <h5 class="resume-item-details award-title" itemprop="description">Electronic and Information Engineering, Bachelor</h5>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+      </section>
+      <!-- end Education -->
+      
+
+
+      
+      <!-- begin Projects -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Projects</h2>
+        </header>
+
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name"></h3>
+          <h4 class="resume-item-details" itemprop="description">Honghui Zhang, Jinglu Wang, Shengnan Cai, Long Quan  &bull; 2014</h4>
+          <p class="resume-item-copy">Joint Segmentation of Images and Scanned Point Cloud in Large-Scale Street Scenes with Low Annotation Cost, IEEE Transaction on Image Processing, vol 23, no.11.</p>
+        </div>
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name"></h3>
+          <h4 class="resume-item-details" itemprop="description">Honghui Zhang, Shengnan Cai, Long Quan  &bull; 2014</h4>
+          <p class="resume-item-copy">Real-Time Object Tracking with Generalized Part-Based Appearance Model and Structure-Constrained Motion Model, IEEE International Conference on Pattern Recognition 2014 (ICPR 2014, Oral presentation).</p>
+        </div>
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name"></h3>
+          <h4 class="resume-item-details" itemprop="description">Honghui Zhang, Jingdong Wang, Ping Tan, Long Quan  &bull; 2013</h4>
+          <p class="resume-item-copy">Learning CRFs for Image Parsing with Adaptive Subgradient Descent, IEEE International Conference on Computer Vision (ICCV) 2013.</p>
+        </div>
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name"></h3>
+          <h4 class="resume-item-details" itemprop="description">Tian Fang, Zhexi Wang, Honghui Zhang, Long Quan  &bull; 2013</h4>
+          <p class="resume-item-copy">Image-Based Modeling of Unwrappable Facades, IEEE Transactions on Visualization and Computer Graphics (TVCG) 2013.</p>
+        </div>
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name"></h3>
+          <h4 class="resume-item-details" itemprop="description">Peng Zhao, Lei Yang, Honghui Zhang, Long Quan  &bull; 2012</h4>
+          <p class="resume-item-copy">Per-Pixel Translational Symmetry Detection, Optimization, and Segmentation, IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2012.</p>
+        </div>
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name"></h3>
+          <h4 class="resume-item-details" itemprop="description">Honghui Zhang, Tian Fang, Xiaowu Chen, Qinping Zhao, Long Quan  &bull; 2011</h4>
+          <p class="resume-item-copy">Partial Similarity based Nonparametric Scene Parsing in Certain Environment, IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2011.</p>
+        </div>
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name"></h3>
+          <h4 class="resume-item-details" itemprop="description">Honghui Zhang, Jianxiong Xiao, Long Quan  &bull; 2010</h4>
+          <p class="resume-item-copy">Supervised Label Transfer for Semantic Segmentation of Street Scenes, European Conference on Computer Vision (ECCV) 2010.</p>
+        </div>
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name"></h3>
+          <h4 class="resume-item-details" itemprop="description">Peng Zhao, Tian Fang, Jianxiong Xiao, Honghui Zhang, Long Quan, Qinping Zhao  &bull; 2010</h4>
+          <p class="resume-item-copy">Rectilinear Parsing of Architecture in Urban Environment, IEEE Conference on Computer Vision and Pattern Recognition (CVPR Oral presentation) 2010.</p>
+        </div>
+        
+
+      </section>
+      <!-- end Projects -->
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+    </div>
+
+  </body>
+
+</html>

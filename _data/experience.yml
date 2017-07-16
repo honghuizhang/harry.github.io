@@ -1,0 +1,22 @@
+# Jobs
+
+# Jobs
+- company: DJI
+  position: Senior Algorithm Engineer, DJI
+  duration: Jun, 2014 &mdash; Jan, 2016
+  summary: Leader of a computer vision research team, working on visual/IMU-aided SLAM, stereo vision and deep learning for UAV.
+
+- company: 
+  position: Department Manager, DJI
+  duration: Jan, 2016 &mdash; Present
+  summary: Manager of the vision perception department.
+
+- company: Lenovo
+  position: Staff Researcher
+  duration:  Jun, 2013 &mdash; Jun, 2014
+  summary: Computer vision research and prototype system development for PC and mobile platform, focusing on 3D reconstruction and modeling from multi-view images and stereo vision related applications.
+
+- company: The Hong Kong University of Science and Technology
+  position: Postdoc Research Fellow
+  duration:   Sep, 2012  &mdash; Jun, 2013
+  summary: Working on visual tracking for intelligent video surveillance, scene understanding of large scale street view with images and lidar point cloud.
